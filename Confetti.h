@@ -5,9 +5,9 @@
 // Start of confetti settings
 
 unsigned long last_start;
-unsigned int new_led_delay = 5000 / NUM_LEDS;
-unsigned int fade_delay = 30;
-unsigned int tempLow = 70;
+unsigned int new_led_delay = 2400 / NUM_LEDS;
+unsigned int fade_delay = 3;
+unsigned int tempLow = 66;
 unsigned int tempHi = 96;
 bool tempReact = true;
 
@@ -37,13 +37,13 @@ class Confetti: public Master
 		}
 		if (millis() - last_start > new_led_delay)
 		{
-			int mappedSensor = map (CircuitPlayground.lightSensor(), 0, 1023, 0, 255);
-			int constrainedSensor = constrain(mappedSensor, 10, 255);
+			//int mappedSensor = map (CircuitPlayground.lightSensor(), 0, 1023, 0, 255);
+			//int constrainedSensor = constrain(mappedSensor, 10, 255);
 			int mappedTempF = constrain(map(CircuitPlayground.temperatureF() * 100, tempLow*100, tempHi*100, 0, 240),0,240);
 			
 
 			// comment next lint to disable dynamic brightness
-			FastLED.setBrightness(constrainedSensor);
+			//FastLED.setBrightness(constrainedSensor);
 
 			if (tempReact)
 			{

@@ -92,6 +92,7 @@ class VUMeter: public Master {
 	~VUMeter() {}
 
 	virtual void loop() {
+		FastLED.setTemperature (UncorrectedTemperature);
 		FastLED.setBrightness(96);
 		int numPixels = NUM_LEDS;
 		unsigned long startMillis= millis();  // Start of sample window
@@ -145,7 +146,7 @@ class VUMeter: public Master {
 		// Set the peak dot to match the rainbow gradient
 		Serial.print("Peak: ");Serial.println(peak);
 		//leds[peak]=CHSV(map(peak,0,numPixels-1,96,0),255,96);
-		leds[peak]=CHSV(160,255,96);
+		leds[peak]=CHSV(200,255,96);
 		if (blanking > PEAK_FALL)
 		{leds[peak]=CRGB::Black;
 		}

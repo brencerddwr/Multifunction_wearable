@@ -9,7 +9,7 @@
 
 class CapTouch: public Master {
 	public:
-	CapTouch() { playSound = false; }
+	CapTouch() { playSound = true; }
 	~CapTouch() {}
 
 	virtual void loop() {

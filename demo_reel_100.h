@@ -21,20 +21,17 @@ class DemoReel100: public Master
 
 	virtual void loop()
 	{
-		int mappedSensor = map (CircuitPlayground.lightSensor(), 0, 1023, 0, 255);
-		int constrainedSensor = constrain(mappedSensor, 10, 255);
-		FastLED.setBrightness(constrainedSensor);
-
+		FastLED.setTemperature (UncorrectedTemperature);
 		// Call the current pattern function once, updating the 'leds' array
 		switch (gCurrentPatternNumber)
 		{
+			//case 0:
+			//rainbow ();
+			//break;
 			case 0:
-			rainbow ();
-			break;
-			case 1:
 			rainbowWithGlitter();
 			break;
-			case 2:
+			case 1:
 			confettid();
 			break;
 		}
@@ -51,7 +48,7 @@ class DemoReel100: public Master
 	}
 	virtual void modePress()
 	{
-		gCurrentPatternNumber = (gCurrentPatternNumber + 1) % 3;
+		gCurrentPatternNumber = (gCurrentPatternNumber + 1) % 2;
 	}
 	
 	void rainbow()
