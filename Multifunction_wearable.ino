@@ -62,7 +62,7 @@ void setup()
 	FastLED.addLeds<WS2812B, DATA_PIN, GRB>(leds, NUM_LEDS).setCorrection(0xB0FFFF);
 
 	// set master brightness to enable FastLED dithering
-	FastLED.setBrightness(64);
+	FastLED.setBrightness(96);
 	last_start = millis();
 
 
