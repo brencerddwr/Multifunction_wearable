@@ -30,7 +30,7 @@ CRGB leds[NUM_LEDS];
 // Create an instance of each demo class.
 Confetti confetti;
 VUMeter vuMeter;
-//DemoReel100 reel;
+DemoReel100 reel;
 Larson larson;
 CapTouch capTouch;
 RainbowChase rainbowChase;
@@ -41,7 +41,7 @@ Master* modules[] = {
 	&confetti,
 	&rainbowChase,
 	&vuMeter,
-//	&reel,
+	&reel,
 	&larson,
 	&capTouch
 };
