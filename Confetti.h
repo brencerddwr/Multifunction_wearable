@@ -7,8 +7,8 @@
 unsigned long last_start;
 unsigned int new_led_delay = 2400 / NUM_LEDS;
 unsigned int fade_delay = 3;
-unsigned int tempLow = 66;
-unsigned int tempHi = 96;
+unsigned int tempLow = 50;
+unsigned int tempHi = 94;
 bool tempReact = true;
 
 // dynamic color temperature code part

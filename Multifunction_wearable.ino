@@ -25,11 +25,13 @@ CRGB leds[NUM_LEDS];
 #include "demo_reel_100.h"
 #include "CapTouch.h"
 #include "RainbowChase.h"
+#include "Larson.h"
 
 // Create an instance of each demo class.
 Confetti confetti;
 VUMeter vuMeter;
-DemoReel100 reel;
+//DemoReel100 reel;
+Larson larson;
 CapTouch capTouch;
 RainbowChase rainbowChase;
 
@@ -39,7 +41,8 @@ Master* modules[] = {
 	&confetti,
 	&rainbowChase,
 	&vuMeter,
-	&reel,
+//	&reel,
+	&larson,
 	&capTouch
 };
 
