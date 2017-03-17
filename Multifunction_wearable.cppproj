@@ -54,7 +54,7 @@
     <ListValues>
       <Value>__AVR_ATmega32u4__</Value>
       <Value>__AVR_ATmega32U4__</Value>
-      <Value>ARDUINO=106012</Value>
+      <Value>ARDUINO=10801</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=8000000L</Value>
       <Value>__AVR__</Value>
@@ -66,15 +66,13 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library</Value>
+      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility</Value>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -84,7 +82,7 @@
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4</Value>
       <Value>../../../Multifunction_wearable</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/avr/</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
@@ -99,7 +97,7 @@
     <ListValues>
       <Value>__AVR_ATmega32u4__</Value>
       <Value>__AVR_ATmega32U4__</Value>
-      <Value>ARDUINO=106012</Value>
+      <Value>ARDUINO=10801</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=8000000L</Value>
       <Value>__AVR__</Value>
@@ -111,15 +109,13 @@
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library</Value>
+      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility</Value>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -129,7 +125,7 @@
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4</Value>
       <Value>../../../Multifunction_wearable</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/avr/</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
@@ -141,7 +137,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries;D:/Users/Richard/My Documents/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/variants/standard;../../../Multifunction_wearable;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility;D:/Users/Richard/My Documents/Arduino/libraries/FastLED;D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr//avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/k5yxuats.qfg/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/rh3v3zz5.xnk/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/gststdhg.5cu/Micro Platforms/default/debuggers;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries;D:/Users/Richard/My Documents/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/variants/standard;../../../Multifunction_wearable;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility;D:/Users/Richard/My Documents/Arduino/libraries/FastLED;D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr//avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/k5yxuats.qfg/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/rh3v3zz5.xnk/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/gststdhg.5cu/Micro Platforms/default/debuggers;C:/Program Files (x86)/Arduino/libraries/Adafruit_CircuitPlayground;C:/Program Files (x86)/Arduino/libraries/Adafruit_CircuitPlayground/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/avr/;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.board.name>adafruit_adafruit_avr_circuitplay32u4cat</arduino.board.name>
@@ -342,7 +338,7 @@ build.arch=AVR
         <visualmicro.application.name>arduino16x</visualmicro.application.name>
         <visualmicro.package.name>adafruit</visualmicro.package.name>
         <visualmicro.platform.name>avr</visualmicro.platform.name>
-        <arduino.build.auto_discover_includes>1</arduino.build.auto_discover_includes>
+        <arduino.build.auto_discover_includes>0</arduino.build.auto_discover_includes>
         <arduino.upload.port>COM9</arduino.upload.port>
       </VisualMicroSettings>
     </VisualMicroSettings>
@@ -361,7 +357,7 @@ build.arch=AVR
     <ListValues>
       <Value>__AVR_ATmega32u4__</Value>
       <Value>__AVR_ATmega32U4__</Value>
-      <Value>ARDUINO=106012</Value>
+      <Value>ARDUINO=10801</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=8000000L</Value>
       <Value>__AVR__</Value>
@@ -373,15 +369,13 @@ build.arch=AVR
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library</Value>
+      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility</Value>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -391,7 +385,7 @@ build.arch=AVR
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4</Value>
       <Value>../../../Multifunction_wearable</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/avr/</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
@@ -406,7 +400,7 @@ build.arch=AVR
     <ListValues>
       <Value>__AVR_ATmega32u4__</Value>
       <Value>__AVR_ATmega32U4__</Value>
-      <Value>ARDUINO=106012</Value>
+      <Value>ARDUINO=10801</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=8000000L</Value>
       <Value>__AVR__</Value>
@@ -418,15 +412,13 @@ build.arch=AVR
   </avrgcccpp.compiler.symbols.DefSymbols>
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library</Value>
+      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility</Value>
       <Value>D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility</Value>
-      <Value>D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -436,7 +428,7 @@ build.arch=AVR
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4</Value>
       <Value>../../../Multifunction_wearable</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/</Value>
-      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/</Value>
+      <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/avr/</Value>
       <Value>C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
@@ -448,7 +440,7 @@ build.arch=AVR
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries;D:/Users/Richard/My Documents/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/variants/standard;../../../Multifunction_wearable;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility;D:/Users/Richard/My Documents/Arduino/libraries/FastLED;D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr//avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/k5yxuats.qfg/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/rh3v3zz5.xnk/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/gststdhg.5cu/Micro Platforms/default/debuggers;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries;D:/Users/Richard/My Documents/Arduino/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/variants/standard;../../../Multifunction_wearable;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2//avr/include/avr/;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/lib/gcc/avr/4.8.1/include;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_Circuit_Playground/utility;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library;D:/Users/Richard/My Documents/Arduino/libraries/Adafruit_SleepyDog_Library/utility;D:/Users/Richard/My Documents/Arduino/libraries/FastLED;D:/Users/Richard/My Documents/Arduino/libraries/FastLED/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/hardware/avr/1.6.12/libraries/Wire/src/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/utility;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries/Wire/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Users/Richard/AppData/Local/arduino15/packages/adafruit/hardware/avr/1.4.9/variants/circuitplay32u4;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/;C:/Program Files (x86)/Arduino/hardware/tools/avr//avr/include/avr/;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/k5yxuats.qfg/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/rh3v3zz5.xnk/Micro Platforms/default/debuggers;C:/Program Files (x86)/Atmel/Studio/7.0/Extensions/gststdhg.5cu/Micro Platforms/default/debuggers;C:/Program Files (x86)/Arduino/libraries/Adafruit_CircuitPlayground;C:/Program Files (x86)/Arduino/libraries/Adafruit_CircuitPlayground/utility;C:/Users/Richard/AppData/Local/arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/avr/include/avr/;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.board.name>adafruit_adafruit_avr_circuitplay32u4cat</arduino.board.name>
@@ -649,7 +641,7 @@ build.arch=AVR
         <visualmicro.application.name>arduino16x</visualmicro.application.name>
         <visualmicro.package.name>adafruit</visualmicro.package.name>
         <visualmicro.platform.name>avr</visualmicro.platform.name>
-        <arduino.build.auto_discover_includes>1</arduino.build.auto_discover_includes>
+        <arduino.build.auto_discover_includes>0</arduino.build.auto_discover_includes>
         <arduino.upload.port>COM9</arduino.upload.port>
       </VisualMicroSettings>
     </VisualMicroSettings>
@@ -664,6 +656,9 @@ build.arch=AVR
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CapTouch.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="colorchase.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Confetti.h">

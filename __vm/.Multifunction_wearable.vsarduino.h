@@ -10,12 +10,12 @@
 
 #define __AVR_ATmega32u4__
 #define __AVR_ATmega32U4__
-#define ARDUINO 106012
+#define ARDUINO 10801
 #define ARDUINO_MAIN
 #define F_CPU 8000000L
 #define __AVR__
 #define F_CPU 8000000L
-#define ARDUINO 106012
+#define ARDUINO 10801
 #define ARDUINO_AVR_CIRCUITPLAY
 #define ARDUINO_ARCH_AVR
 #define USB_VID 0x239A

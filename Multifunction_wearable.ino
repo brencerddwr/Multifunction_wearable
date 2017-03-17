@@ -2,7 +2,7 @@
 
 // include libraries
 #include <FastLED.h>
-#include <Adafruit_CircuitPlayground.h>
+#include <Adafruit_Circuit_Playground.h>
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_SleepyDog.h>
@@ -15,7 +15,8 @@ bool rgbdebug=false;
 // FastLED setup
 #define NUM_LEDS 10
 #define DATA_PIN 17
-CRGB leds[NUM_LEDS];
+// CRGB leds[NUM_LEDS];
+CRGBArray<NUM_LEDS> leds;
 
 
 // include modules
@@ -26,6 +27,7 @@ CRGB leds[NUM_LEDS];
 #include "CapTouch.h"
 #include "RainbowChase.h"
 #include "Larson.h"
+//#include "colorchase.h"
 
 // Create an instance of each demo class.
 Confetti confetti;
@@ -34,6 +36,7 @@ DemoReel100 reel;
 Larson larson;
 CapTouch capTouch;
 RainbowChase rainbowChase;
+//ColorChase colorChase;
 
 // Make a list of all demo class instances and keep track of the currently selected one.
 int currentModule = 0;
@@ -43,7 +46,8 @@ Master* modules[] = {
 	&vuMeter,
 	&reel,
 	&larson,
-	&capTouch
+	&capTouch,
+	//&colorChase
 };
 
 
