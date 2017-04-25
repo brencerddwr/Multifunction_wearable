@@ -2,7 +2,7 @@
 
 // include libraries
 #include <FastLED.h>
-#include <Adafruit_Circuit_Playground.h>
+#include <Adafruit_CircuitPlayground.h>
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_SleepyDog.h>
