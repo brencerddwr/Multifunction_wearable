@@ -10,7 +10,7 @@
 // configure debug code
 // uncomment the line below to enable serial debugging output and comment the second line
 //bool rgbdebug=true;
-bool rgbdebug=false;
+bool rgbdebug = false;
 
 // FastLED setup
 #define NUM_LEDS 10
@@ -29,7 +29,7 @@ CRGBArray<NUM_LEDS> leds;
 #include "Larson.h"
 //#include "colorchase.h"
 
-// Create an instance of each demo class.
+// Create an instance of each class.
 Confetti confetti;
 VUMeter vuMeter;
 DemoReel100 reel;
@@ -59,7 +59,7 @@ void setup()
 		Serial.begin(115200);
 		while (!Serial);
 		Serial.println("Multifunction wearable debug output");
-		
+
 	}
 	CircuitPlayground.begin();
 
@@ -95,7 +95,7 @@ void loop()
 	FastLED.delay(10);
 
 	// system wide dynamic brightness adjustment for all modules that use FastLED
-	int mappedSensor = map (CircuitPlayground.lightSensor(), 0, 1023, 0, 255);
+	int mappedSensor = map(CircuitPlayground.lightSensor(), 0, 1023, 0, 255);
 	int constrainedSensor = constrain(mappedSensor, 10, 255);
 	FastLED.setBrightness(constrainedSensor);
 
@@ -111,12 +111,12 @@ void loop()
 	if (leftFirst && !leftSecond) {
 		// Turn off all the pixels when entering new mode.
 		//CircuitPlayground.clearPixels();
-		FastLED.setTemperature (UncorrectedTemperature);
+		FastLED.setTemperature(UncorrectedTemperature);
 		FastLED.clear();
 		FastLED.show();
 		// Increment the current demo (looping back to zero if at end).
 		currentModule += 1;
-		if (currentModule >= (sizeof(modules)/sizeof(Master*))) {
+		if (currentModule >= (sizeof(modules) / sizeof(Master*))) {
 			currentModule = 0;
 		}
 		if (rgbdebug)
