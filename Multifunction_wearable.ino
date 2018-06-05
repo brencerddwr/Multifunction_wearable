@@ -14,7 +14,10 @@ bool rgbdebug = false;
 
 // FastLED setup
 #define NUM_LEDS 10
+// adafruit circuit playground classic
 #define DATA_PIN 17
+// adafruit circuit playground express
+//#define DATA_PIN 8
 // CRGB leds[NUM_LEDS];
 CRGBArray<NUM_LEDS> leds;
 
